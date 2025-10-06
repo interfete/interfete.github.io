@@ -27,3 +27,8 @@ Vineri 14-16, sala **AN015**
 | 16-18 |      |       |              | 414Hb | 413Hb  |
 | 18-20 |      |       |              |       | 412Hb  |
 
+### Laboratoare
+
+<ul>
+  <li><a href="{{ '/lab01' | relative_url }}">Laborator 01 (săptămâna 06.10-10.10)</a></li>
+</ul>
