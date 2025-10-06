@@ -1,8 +1,3 @@
----
-layout: default
-title: Construcția Interfețelor Web, An I, 2024-2025
----
-
 # CIW Științele Comunicării
 Construcția Interfețelor Web, An I, 2024-2025
 
