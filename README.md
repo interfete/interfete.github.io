@@ -8,7 +8,7 @@ Construcția Interfețelor Web, An I, 2024-2025
 
 ### Laboratoare
 - Ș.l. Dr. ing. **Gabriel GUȚU-ROBU**
-- As. Dr. ing. **Ionel Alexandru CONSTANTIN**
+- As. Dr. ing. **Alexandru-Ionel CONSTANTIN**
 
 ## Orar
 
