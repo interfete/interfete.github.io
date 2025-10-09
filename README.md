@@ -1,14 +1,14 @@
 # CIW Științele Comunicării
-Construcția Interfețelor Web, An I, 2024-2025
+Construcția Interfețelor Web, An I, 2025-2026
 
 ## Echipă
 
 ### Curs
-Ș.l. Dr. ing. **Gabriel GUȚU-ROBU**
+Ș.l. Dr. Ing. **Gabriel GUȚU-ROBU**
 
 ### Laboratoare
-- Ș.l. Dr. ing. **Gabriel GUȚU-ROBU**
-- As. Dr. ing. **Alexandru-Ionel CONSTANTIN**
+- Ș.l. Dr. Ing. **Gabriel GUȚU-ROBU**
+- C.ș. III As. Dr. Ing. **Alexandru-Ionel CONSTANTIN**
 
 ## Orar
 
@@ -18,14 +18,14 @@ Vineri 14-16, sala **AN015**
 
 ### Laborator
 
-| Ora   | Luni | Marți | Miercuri     | Joi   | Vineri |
-| ------| -----|-------|--------------|-------|--------|
-|  8-10 |      |       |              |       |        |
-| 10-12 |      |       |              |       |        |
-| 12-14 |      |       | 414Ha        |       | 412Ha  |
-| 14-16 |      |       | 411Ha; 411Hb | 413Ha |        |
-| 16-18 |      |       |              | 414Hb | 413Hb  |
-| 18-20 |      |       |              |       | 412Hb  |
+| Ora   | Luni | Marți | Miercuri                 | Joi   | Vineri |
+| ------| -----|-------|--------------------------|-------|--------|
+|  8-10 |      |       |                          |       |        |
+| 10-12 |      |       |                          |       |        |
+| 12-14 |      |       | 414Ha - ED313                   |       | 412Ha - ED313 |
+| 14-16 |      |       | 411Ha - EG410 <br> 411Hb - ED313 | 413Ha - CB106 |        |
+| 16-18 |      |       |                          | 414Hb - ED313 | 413Hb - PR606 |
+| 18-20 |      |       |                          |       | 412Hb - PR606 |
 
 ### Laboratoare
 
