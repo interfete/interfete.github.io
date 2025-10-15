@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<recipe>
+  <title>Ceai de mentă</title>
+  <ingredients>
+    <ingredient>1 linguriță de frunze de mentă</ingredient>
+    <ingredient>250 ml apă fierbinte</ingredient>
+  </ingredients>
+  <instructions>
+    <step>Pune frunzele de mentă într-o cană.</step>
+    <step>Adaugă apa fierbinte și lasă 5 minute la infuzat.</step>
+  </instructions>
+</recipe>
