@@ -87,14 +87,14 @@ Dacă documentul respectă specificațiile HTML5, validatorul va afișa mesajul:
 6. Structură incorectă a documentului
 
 ### Exerciții
-1. Deschideți fișierul [recipe.xml](lab02/recipe.xml) în browser. Observați modul interactiv în care este afișat conținutul.
+1. Deschideți fișierul <a href="lab02/recipe.xml" download>recipe.xml</a> în browser. Observați modul interactiv în care este afișat conținutul.
 2. Creați un fișier numit `student.xml` care să descrie informațiile de bază despre un student: nume, specializare, an de studiu și notă finală.
-3. Deschideți pagina [hello.html](lab02/hello.html) în browser. Găsiți zona în care apare titlul paginii (pe bara de titlu a browser-ului). Modificați titlul de pe bară în "Goodbye World" în loc de "Hello Wolrd".
+3. Deschideți pagina <a href="lab02/hello.html" download>hello.html</a> în browser. Găsiți zona în care apare titlul paginii (pe bara de titlu a browser-ului). Modificați titlul de pe bară în "Goodbye World" în loc de "Hello Wolrd".
 4. Modificați paragraful din pagină (tag-ul `<p>`) astfel încât cuvântul **first** să fie scris cu bold - folosiți tag-ul `<b>`.
-5. Copiați conținutul fișierului [wrong.html](lab02/wrong.html) în Validator-ul W3C. Găsiți cele 3 erori și remediați-le.
+5. Copiați conținutul fișierului <a href="lab02/wrong.html" download>wrong.html</a> în Validator-ul W3C. Găsiți cele 3 erori și remediați-le.
 6. Verificați folosind validatorul:
-- site-ul [emag.ro](emag.ro)
-- site-ul [stirileprotv.ro](stirileprotv.ro)
+- site-ul [https://emag.ro](emag.ro)
+- site-ul [https://stirileprotv.ro](stirileprotv.ro)
 Sunt valide? Studiați erorile identificate.
 
 <mark>Dacă o pagină nu poate fi verificată direct prin intermediul URL-ului, copiați codul sursă (click-dreapta => View Page Source) și lipiți-l (Paste) în Validator. Unele pagini au politici restrictive în privința script-urilor care le accesează!</mark>
