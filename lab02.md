@@ -93,8 +93,8 @@ Dacă documentul respectă specificațiile HTML5, validatorul va afișa mesajul:
 4. Modificați paragraful din pagină (tag-ul `<p>`) astfel încât cuvântul **first** să fie scris cu bold - folosiți tag-ul `<b>`.
 5. Copiați conținutul fișierului <a href="lab02/wrong.html" download>wrong.html</a> în Validator-ul W3C. Găsiți cele 3 erori și remediați-le.
 6. Verificați folosind validatorul:
-- site-ul [https://emag.ro](emag.ro)
-- site-ul [https://stirileprotv.ro](stirileprotv.ro)
+- site-ul [eMAG](https://emag.ro)
+- site-ul [Știrile ProTV](https://stirileprotv.ro)
 Sunt valide? Studiați erorile identificate.
 
 <mark>Dacă o pagină nu poate fi verificată direct prin intermediul URL-ului, copiați codul sursă (click-dreapta => View Page Source) și lipiți-l (Paste) în Validator. Unele pagini au politici restrictive în privința script-urilor care le accesează!</mark>
