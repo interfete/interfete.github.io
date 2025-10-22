@@ -173,7 +173,7 @@ Transformă codul într-o versiune corectă semantic, cu `<header>`, `<nav>`, `<
 </div>
 ```
 
-4) Descarcă fișierul <a href="lab03/example.xml" download>example.html</a> în calculator. Verifică conținutul său. Îmbunătățește codul astfel încât să cuprindă următoarele tag-uri semantice:
+4) Descarcă fișierul <a href="lab03/example.html" download>example.html</a> în calculator. Verifică conținutul său. Îmbunătățește codul astfel încât să cuprindă următoarele tag-uri semantice:
 - `<header>` - să cuprindă zona de antet a site-ului
 - `<main>` - să cuprindă conținutul principal și un link către imaginea <a href="lab03/zapada.jpg" download>zapada.jpg</a>
 - `<nav>` - să cuprindă link-ul din cod și încă două link-uri
