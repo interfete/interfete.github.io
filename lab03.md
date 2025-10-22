@@ -103,7 +103,9 @@ Astfel, validarea W3C ajută nu doar la depistarea erorilor tehnice, ci și la �
 Validatorul W3C este disponibil aici: [https://validator.w3.org](https://validator.w3.org)
 
 ### Exerciții
-1. Următorul cod produce o eroare în validator:
+<ol>
+<li>
+Următorul cod produce o eroare în validator. Verificați care este eroarea și reparați-o. Este o eroare semantică sau de structură?
 
 ```
 <!DOCTYPE html>
@@ -122,10 +124,8 @@ Validatorul W3C este disponibil aici: [https://validator.w3.org](https://validat
 </body>
 </html>
 ```
-
-Verificați care este eroarea și reparați-o. Este o eroare semantică sau de structură?
-
-2. Și următorul cod produce o eroare în validator:
+</li>
+<li>Și următorul cod produce o eroare în validator. Care este eroarea de data aceasta și cum se repară? Este o eroare semantică sau de sintaxă?
 
 ```
 <!DOCTYPE html>
@@ -150,10 +150,9 @@ Verificați care este eroarea și reparați-o. Este o eroare semantică sau de s
 </body>
 </html>
 ```
-
-Care este eroarea de data aceasta și cum se repară? Este o eroare semantică sau de sintaxă?
-
-3. Pornește de la următorul cod "nesemantic" și îmbunătățește-l folosind tag-uri semantice.
+</li>
+<li>
+Pornește de la următorul cod "nesemantic" și îmbunătățește-l folosind tag-uri semantice.
 
 Transformă codul într-o versiune corectă semantic, cu `<header>`, `<nav>`, `<article>`, și `<footer>`.
 
@@ -176,9 +175,11 @@ Transformă codul într-o versiune corectă semantic, cu `<header>`, `<nav>`, `<
   </div>
 </div>
 ```
-
-4. Descarcă fișierul <a href="lab03/example.xml" download>example.html</a> în calculator. Verifică conținutul său. Îmbunătățește codul astfel încât să cuprindă următoarele tag-uri semantice:
+</li>
+<li>Descarcă fișierul <a href="lab03/example.xml" download>example.html</a> în calculator. Verifică conținutul său. Îmbunătățește codul astfel încât să cuprindă următoarele tag-uri semantice:
 - `<header>` - să cuprindă zona de antet a site-ului
 - `<main>` - să cuprindă conținutul principal și un link către imaginea <a href="lab03/zapada.jpg" download>zapada.jpg</a>
 - `<nav>` - să cuprindă link-ul din cod și încă două link-uri
 - `<footer>` - să cuprindă meniul de navigare creat anterior
+</li>
+</ol>
