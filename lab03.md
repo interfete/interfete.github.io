@@ -104,6 +104,7 @@ Validatorul W3C este disponibil aici: [https://validator.w3.org](https://validat
 
 ### Exerciții
 1. Următorul cod produce o eroare în validator:
+
 ```
 <!DOCTYPE html>
 <html lang="ro">
@@ -112,14 +113,12 @@ Validatorul W3C este disponibil aici: [https://validator.w3.org](https://validat
   <title>Pagină test</title>
 </head>
 <body>
-
   <p>
     <header>
       <h1>Bine ați venit!</h1>
     </header>
     Acesta este un paragraf.
   </p>
-
 </body>
 </html>
 ```
@@ -127,6 +126,7 @@ Validatorul W3C este disponibil aici: [https://validator.w3.org](https://validat
 Verificați care este eroarea și reparați-o. Este o eroare semantică sau de structură?
 
 2. Și următorul cod produce o eroare în validator:
+
 ```
 <!DOCTYPE html>
 <html lang="ro">
@@ -135,14 +135,11 @@ Verificați care este eroarea și reparați-o. Este o eroare semantică sau de s
   <title>Exemplu semantic greșit</title>
 </head>
 <body>
-
   <main>
     <article>
       <h1>Primul articol</h1>
       <p>Conținutul articolului...</p>
     </article>
-
-    <!-- Al doilea element <main> este incorect semantic -->
     <main>
       <article>
         <h1>Al doilea articol</h1>
@@ -150,7 +147,6 @@ Verificați care este eroarea și reparați-o. Este o eroare semantică sau de s
       </article>
     </main>
   </main>
-
 </body>
 </html>
 ```
@@ -158,6 +154,8 @@ Verificați care este eroarea și reparați-o. Este o eroare semantică sau de s
 Care este eroarea de data aceasta și cum se repară? Este o eroare semantică sau de sintaxă?
 
 3. Pornește de la următorul cod "nesemantic" și îmbunătățește-l folosind tag-uri semantice.
+
+Transformă codul într-o versiune corectă semantic, cu `<header>`, `<nav>`, `<article>`, și `<footer>`.
 
 <mark>Atenție! Codul de mai jos nu conține tag-urile `<html>`, `<head>` și `<body>`, pe care trebuie să le adăugați voi.</mark>
 
@@ -179,9 +177,7 @@ Care este eroarea de data aceasta și cum se repară? Este o eroare semantică s
 </div>
 ```
 
-Transformă codul într-o versiune corectă semantic, cu `<header>`, `<nav>`, `<article>`, și `<footer>`.
-
-4. Descărcați fișierul <a href="lab03/example.xml" download>example.html</a> în calculator. Verificați conținutul său. Îmbunătățiți codul astfel încât să cuprindă următoarele tag-uri semantice:
+4. Descarcă fișierul <a href="lab03/example.xml" download>example.html</a> în calculator. Verifică conținutul său. Îmbunătățește codul astfel încât să cuprindă următoarele tag-uri semantice:
 - `<header>` - să cuprindă zona de antet a site-ului
 - `<main>` - să cuprindă conținutul principal și un link către imaginea <a href="lab03/zapada.jpg" download>zapada.jpg</a>
 - `<nav>` - să cuprindă link-ul din cod și încă două link-uri
