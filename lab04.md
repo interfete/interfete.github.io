@@ -59,14 +59,6 @@ Scop: Verifică formatul e-mail-ului
 <input type="email">
 ```
 
-#### Text simplu
-
-Scop: Introducere text scurt
-
-```
-<input type="text">
-```
-
 #### Număr
 
 Scop: Doar valori numerice
@@ -75,7 +67,7 @@ Scop: Doar valori numerice
 <input type="number" min="0" max="100">
 ```
 
-#### Date
+#### Dată
 
 Scop: Selector de dată
 
@@ -125,7 +117,7 @@ Scop: Golește câmpurile
 
 ### Webhook.site
 
-[Webhook.site](https://webhook.site) permite folosirea unei adrese "fake" pentru simularea trimiterii datelor către un server. De exemplu, scopul ar putea fi testarea funcționării unui formular.
+<a href="https://webhook.site/" target="_blank">Webhook.site</a> permite folosirea unei adrese "fake" pentru simularea trimiterii datelor către un server. De exemplu, scopul ar putea fi testarea funcționării unui formular.
 
 Fiecare adresă Webhook acceptă un număr limită de request-uri (de exemplu 100), din considerente de a nu spama server-ului respectiv.
 
