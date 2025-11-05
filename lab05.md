@@ -13,7 +13,7 @@ Un tabel este definit cu tag-ul `<table>`, iar structura sa de bază include:
 - `<th>` – definește o celulă de antet (table header),
 - `<td>` – definește o celulă de date (table data).
 
-Exemplul 1 - Tabel simplu
+#### Exemplul 1 - Tabel simplu
 ```
 <table border="1">
   <tr>
@@ -41,7 +41,7 @@ Poți avea un singur `<tbody>` într-un tabel, dar unele browsere permit mai mul
 - `<tfoot>` – conține rândul de subsol, folosit adesea pentru totaluri, note sau concluzii ale datelor.
 Interesant este că, deși apare vizual la final, poate fi plasat în cod înainte de `<tbody>`, pentru ca browserul să poată procesa mai eficient tabelele mari.
 
-Exemplul 2 - Tabel cu structură semantică
+#### Exemplul 2 - Tabel cu structură semantică
 ```
 <table border="1">
   <thead>
@@ -81,7 +81,7 @@ Pentru aceste situații se folosesc atributele `colspan` și `rowspan`, aplicate
 
 Atributul `colspan` specifică numărul de coloane pe care o celulă trebuie să le ocupe.
 
-Exemplul 3 - Tabel cu `colspan`
+##### Exemplul 3 - Tabel cu `colspan`
 ```
 <table border="1">
   <tr>
@@ -102,7 +102,7 @@ Celula "Note" se întinde pe două coloane în exemplul de mai sus.
 
 Atributul `rowspan` specifică numărul de rânduri pe care o celulă trebuie să le acopere.
 
-Exemplul 4 - Tabel cu `rowspan`
+##### Exemplul 4 - Tabel cu `rowspan`
 ```
 <table border="1">
   <tr>
