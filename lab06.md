@@ -144,8 +144,8 @@ h1, h2, h3 {
 Codul HTML care reflectă setările (după legarea regulilor CSS):
 ```
 <h1>Antet de dimensiune 1 de culoare albastru închis.</h1>
-<h2>Antet de dimensiune 1 de culoare albastru închis.</h2>
-<h3>Antet de dimensiune 1 de culoare albastru închis.</h3>
+<h2>Antet de dimensiune 2 de culoare albastru închis.</h2>
+<h3>Antet de dimensiune 3 de culoare albastru închis.</h3>
 ```
 
 
