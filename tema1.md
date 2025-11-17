@@ -14,7 +14,9 @@ Datele din formular trebuie trimise către un link unic generat de pe [https://w
 ### Date calendaristice
 
 **Data publicării:** 14.11.2025
+
 **Soft deadline:** 28.11.2025, ora 23:59:59
+
 **Hard deadline:** 05.12.2025, ora 23:59:59
 
 - Se aplică o depunctare de **1/10p** pentru fiecare zi de întârziere de la *soft deadline* până la *hard deadline*!
@@ -71,6 +73,8 @@ Tema se va arhiva într-o arhivă ZIP cu nume de forma `IDTeams_Grupa.zip`, de e
 - fișierul `index.html` cu codul HTML
 - fișierul `style.css` cu codul CSS (legat la fișierul HTML)
 - un fișier `webhook.txt` ce va conține doar link-ul vostru unic pe prima linie
+
+Arhiva se va trimite prin Moodle la următoarea adresă: <a href="https://bit.ly/ciw-tema1" taget="_blank">https://bit.ly/ciw-tema1</a>.
 
 ### Barem notare (max. 10p)
 
