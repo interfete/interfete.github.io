@@ -49,7 +49,7 @@ Vizitați [https://webhook.site](https://webhook.site) și obțineți link-ul vo
 - formularul trebuie să aibă câmpurile pentru: *nume participant*, *email*, *număr de persoane*, *comentarii* (hint: tag de tip `<textarea>`);
 - câmpurile *nume participant*, *email* și *număr de persoane* trebuie să fie obligatorii (hint: atributul `required`);
 - câmpul *email* trebuie să permită doar formate de tip e-mail;
-- câmpul *număr de persoane* trebuie să permită doar numere între 1 și 4;
+- câmpul *număr de persoane* trebuie să permită doar numere între 1 și 3;
 - formularul trebuie să aibă un buton *Trimite* care declanșează trimiterea datelor către link-ul unic al studentului de pe Webhook.site.
 <!-- undeva în pagină să apară Robin Hood -->
 
