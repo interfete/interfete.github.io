@@ -89,7 +89,7 @@ p.secret {
 Fișierul HTML:
 ```
 <p>Bună ziua!</p>
-<p>Acesta este un paragraf secret. El nu apare în pagină, dar se vede în codul sursă.</p>
+<p class="secret">Acesta este un paragraf secret. El nu apare în pagină, dar se vede în codul sursă.</p>
 ```
 
 ###  De ce este `display` important în web design?
