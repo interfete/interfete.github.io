@@ -24,6 +24,7 @@ Pentru a integra Bootstrap într-un site web există mai multe variante:
 #### Fișier extern (modalitatea recomandată)
 
 Se introduce următorul cod în zona de `<head>`:
+
 ```
 <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet">
 ```
@@ -33,8 +34,9 @@ Se introduce următorul cod în zona de `<head>`:
 1. Se descarcă ultima versiune a Bibliotecii de pe site-ul oficial [https://getbootstrap.com](https://getbootstrap.com) (folosind butonul de *Download*).
 2. Se copiază fișierul `bootstrap.min.css` în proiect.
 3. Se introduce următorul cod în zona de `<head>`:
+
 ```
-<link href="css/bootstrap.min.css" rel="stylesheet">
+<link href=bootstrap.min.css" rel="stylesheet">
 ```
 
 ### Clase utile și componente
