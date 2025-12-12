@@ -25,7 +25,7 @@ Pagina trebuie să includă:
 - o secțiune principală (`<main>`) cu un card mare de Bootstrap, în care să adăugați o descriere a voastră în privința serviciilor oferite de voi (de ex.: postare Social Media, dezvoltare web, etc.);
 - o secțiune cu 4 carduri care să prezinte 3 servicii diferite (de ex.: "postare Reel IG", "postare poză IG", "postare status update IG", etc.), fiecare cu poză, descriere și buton "Cumpără";
 - o secțiune suplimentară cu două butoane de acțiune: unul care să afișeze textul *Trimite E-mail*, altul care să afișeze textul *Sună acum*;
-- o alertă de un tip ales de boi (de succes, de eroare, de avertizare, de informare, etc.) afișată în orice zonă din site în care veți introduce citatul preferat;
+- o alertă de un tip ales de voi (de succes, de eroare, de avertizare, de informare, etc.) afișată în orice zonă din site în care veți introduce citatul preferat;
 - un footer în care veți introduce e-mail-ul vostru și adrese de contact (de exemplu adresa Universității).
 
 #### 2. Bootstrap Grid
