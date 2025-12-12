@@ -12,7 +12,7 @@ Pagina trebuie să fie responsive, construită cu **Bootstrap**, și să folosea
 
 **Data publicării:** 12.12.2025
 
-**Hard deadline:** 16.01.2025, ora 23:59:59
+**Hard deadline:** 16.01.2026, ora 23:59:59
 
 - După *hard deadline* nu se mai poate trimite tema!
 
