@@ -40,4 +40,5 @@ Vineri 14-16, sala **AN015**
   <li><a href="{{ '/lab08' | relative_url }}">Laborator 08 (săptămâna 24.11-28.11)</a></li>
   <li><a href="{{ '/lab09' | relative_url }}">Laborator 09 (săptămâna 01.12-05.12)</a></li>
   <li><a href="{{ '/lab10' | relative_url }}">Laborator 10 (săptămâna 08.12-12.12)</a></li>
+  <li><a href="{{ '/lab11' | relative_url }}">Laborator 11 (săptămâna 12.01-16.01)</a></li>
 </ul>
