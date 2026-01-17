@@ -66,3 +66,19 @@ Tema se va arhiva într-o arhivă ZIP cu nume de forma `IDTeams_Grupa.zip`, de e
 
 - Numirea incorectă a arhivei duce la punctaj zero pe temă.
 - Lipsa cel puțin a unuia dintre fișiere din arhivă (fișier HTML, fișier CSS) duce la punctaj zero pe temă.
+
+### Barem notare (max. 10p)
+
+1. **Structură HTML** - existență `DOCTYPE`, `<html>`, `<head>`, `<title>`, `<body>` (**1p**)
+1. **Fișierul CSS al Bootstrap** este legat corect la fișierul HTML (**1p**)
+1. **Structură generală pagină** (**2p**)
+    - `<header>` cu numele vostru (*0.25p*)
+    - secțiune principală cu un card mare (*0.25p*)
+    - secțiune cu 4 carduri de servicii (*0.5p*)
+    - secțiune cu două butoane de acțiune (*0.25p*)
+    - alertă cu un citat ales (*0.25p*)
+    - footer cu e-mail și adresă de contact (*0.5p*)
+1. **Responsiveness cu Bootstrap Grid** - partea de servicii trebuie să fie responsive (o singură coloană pe mobil, două coloane pe tabletă, 3 sau 4 coloane pe desktop) (**2p**)
+1. **Componente diferite de Bootstrap** - un mesaj de tip alert, 3 butoane diferite, 4 carduri cu imagine, titlu, descriere și Call to Action (**2p**)
+1. **CSS personalizat** - titlu colorat diferit, border personalizat, unul dintre carduri să aibă stil diferit (**1p**)
+1. **Aspect vizual** plăcut (**1p**)
