@@ -24,7 +24,7 @@ Tag-urile pot avea atribute care descriu proprietăți suplimentare:
     ...
 ```
 
-XML este utilizat în aplicații web și în schimbul de date între sisteme diferite, deoarece permite definirea de **formate personalizate** care pot fi validate și interpretate automat (prin intermediul altor script-uri/programe). Este frecvent folosit împreună cu alte tehnologii precum DTD (Document Type Definition) sau XML Schema pentru validarea structurii documentului.
+XML este utilizat în aplicații web și în schimbul de date între sisteme diferite, deoarece permite definirea de **formate personalizate** care pot fi validate și interpretate automat (prin intermediul altor script-uri/programe). Este frecvent folosit împreună cu alte tehnologii precum *DTD* (Document Type Definition) sau *XML Schema* pentru validarea structurii documentului.
 
 ### HTML
 HTML (**H**yper**T**ext **M**arkup **L**anguage) este folosit pentru afișarea informațiilor în paginile web. El definește structura vizuală a conținutului — cum ar fi paragrafe, titluri, tabele sau imagini — și este interpretat de browser-ele web pentru a reda pagina către utilizator într-un format accesibil vizual (user-friendly).
@@ -35,7 +35,7 @@ XML, în schimb, este proiectat pentru stocarea și schimbul de date, nu pentru 
 
 HTML 5 este cea mai recentă versiune a limbajului HTML și reprezintă standardul actual pentru construirea paginilor web moderne. A fost creat pentru a îmbunătăți structura și funcționalitatea web-ului, oferind suport nativ pentru conținut multimedia (fișiere audio, video), grafică (prin tag-ul `<canvas>`), aplicații interactive și formulare avansate, fără a fi nevoie de plugin-uri externe precum Adobe Flash, așa cum era necesar anterior (în HTML 4).
 
-Un exemplu simplu de pagină de tip "Hello, world!" în HTML5 este următorul:
+Un exemplu simplu de pagină de tip *Hello, world!*"* în HTML5 este următorul:
 
 ```
 <!DOCTYPE html>
@@ -87,15 +87,15 @@ Dacă documentul respectă specificațiile HTML5, validatorul va afișa mesajul:
 6. Structură incorectă a documentului
 
 ### Exerciții
-1. Deschideți fișierul <a href="lab02/recipe.xml" download>recipe.xml</a> în browser. Observați modul interactiv în care este afișat conținutul.
-2. Creați un fișier numit `student.xml` care să descrie informațiile de bază despre un student: nume, specializare, an de studiu și notă finală.
-3. Deschideți pagina <a href="lab02/hello.html" download>hello.html</a> în browser. Găsiți zona în care apare titlul paginii (pe bara de titlu a browser-ului). Modificați titlul de pe bară în "Goodbye World" în loc de "Hello Wolrd".
-4. Modificați paragraful din pagină (tag-ul `<p>`) astfel încât cuvântul **first** să fie scris cu bold - folosiți tag-ul `<b>`.
-5. Copiați conținutul fișierului <a href="lab02/wrong.html" download>wrong.html</a> în Validator-ul W3C. Găsiți cele 3 erori și remediați-le.
+1. Deschideți fișierul <a href="lab02/recipe.xml" download>recipe.xml</a> în browser-ul web, iar apoi în *Visual Studio Code*. Observați modul interactiv în care este afișat conținutul.
+2. Creați un fișier numit `student.xml` care să descrie informațiile voastre de bază: numele complet, facultatea, anul de studiu și notă dorită.
+3. Deschideți pagina <a href="lab02/hello.html" download>hello.html</a> în browser. Găsiți zona în care apare titlul paginii (pe bara de titlu a browser-ului). Modificați titlul de pe bară în *Goodbye World* în loc de *Hello Wolrd*.
+4. Modificați paragraful din pagină (tag-ul `<p>`) astfel încât cuvântul **first** să fie scris cu bold (Hint: folosiți tag-ul `<b>`).
+5. Copiați conținutul fișierului <a href="lab02/wrong.html" download>wrong.html</a> în validator-ul *W3C*. Găsiți cele 3 erori și reparați-le.
 6. Verificați folosind validatorul:
 - site-ul [eMAG](https://emag.ro)
 - site-ul [Știrile ProTV](https://stirileprotv.ro)
 Sunt valide? Studiați erorile identificate.
 
-<mark>Dacă o pagină nu poate fi verificată direct prin intermediul URL-ului, copiați codul sursă (click-dreapta => View Page Source) și lipiți-l (Paste) în Validator. Unele pagini au politici restrictive în privința script-urilor care le accesează!</mark>
+<mark>Atenție! Dacă o pagină nu poate fi verificată direct prin intermediul URL-ului în validatorul W3C, copiați codul sursă (click-dreapta în pagină => *View Page Source*) și lipiți-l (*Paste*) în Validator. Unele pagini au politici restrictive în privința accesului către resursele lor de la alte adrese/clienți!</mark>
 
