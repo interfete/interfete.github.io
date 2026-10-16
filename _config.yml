@@ -1,4 +1,12 @@
-theme: jekyll-theme-minimal
-title: CIW Științele Comunicării
+# theme: jekyll-theme-minimal # old theme
+remote_theme: just-the-docs/just-the-docs
+
+title: Tutoriale Laboratoare CIW, Jurnalism și Media Digitală
 description: Construcția Interfețelor Web, An I, 2026-2027
+
+search_enabled: true
+
+aux_links:
+  # "View on GitHub": "https://github.com/username/repo"
+
 google_analytics: G-KQRFKGV0FM
