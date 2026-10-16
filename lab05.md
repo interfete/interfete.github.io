@@ -1,3 +1,10 @@
+---
+layout: default
+title: Laborator 05
+nav_order: 6
+nav_exclude: true
+---
+
 # CIW Științele Comunicării
 
 ## Laborator 05: Tabele în HTML

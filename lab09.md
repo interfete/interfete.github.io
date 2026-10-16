@@ -1,3 +1,10 @@
+---
+layout: default
+title: Laborator 09
+nav_order: 10
+nav_exclude: true
+---
+
 # CIW Științele Comunicării
 
 ## Laborator 09: Recapitulare

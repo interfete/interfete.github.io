@@ -1,3 +1,10 @@
+---
+layout: default
+title: Laborator 06
+nav_order: 7
+nav_exclude: true
+---
+
 # CIW Științele Comunicării
 
 ## Laborator 06: Introducere în CSS

@@ -1,3 +1,10 @@
+---
+layout: default
+title: Laborator 11
+nav_order: 12
+nav_exclude: true
+---
+
 # CIW Științele Comunicării
 
 ## Laborator 11: Formulare în Bootstrap. Spațiere.

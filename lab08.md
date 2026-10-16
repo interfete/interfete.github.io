@@ -1,3 +1,10 @@
+---
+layout: default
+title: Laborator 08
+nav_order: 9
+nav_exclude: true
+---
+
 # CIW Științele Comunicării
 
 ## Laborator 08: Selectori avansați în CSS

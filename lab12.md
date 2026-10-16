@@ -1,3 +1,10 @@
+---
+layout: default
+title: Laborator 12
+nav_order: 13
+nav_exclude: true
+---
+
 # CIW Științele Comunicării
 
 ## Laborator 12: Media queries. Unități CSS.

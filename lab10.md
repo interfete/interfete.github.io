@@ -1,3 +1,10 @@
+---
+layout: default
+title: Laborator 10
+nav_order: 11
+nav_exclude: true
+---
+
 # CIW Științele Comunicării
 
 ## Laborator 10: Introducere în Bootstrap
