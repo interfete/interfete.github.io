@@ -1,3 +1,10 @@
+---
+layout: default
+title: Laborator 04
+nav_order: 5
+nav_exclude: true
+---
+
 # CIW Științele Comunicării
 
 ## Laborator 04: Formulare în HTML
