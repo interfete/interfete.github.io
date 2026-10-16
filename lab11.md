@@ -3,6 +3,7 @@ layout: default
 title: Laborator 11
 nav_order: 12
 nav_exclude: true
+search_exclude: true
 ---
 
 # CIW Științele Comunicării

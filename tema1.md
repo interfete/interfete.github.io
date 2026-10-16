@@ -3,6 +3,7 @@ layout: default
 title: Tema 1
 nav_order: 14
 nav_exclude: true
+search_exclude: true
 ---
 
 # CIW Științele Comunicării
