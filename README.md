@@ -1,3 +1,10 @@
+---
+layout: default
+title: Acasă
+nav_order: 1
+description: Homepage Laboratoare
+---
+
 # CIW Științele Comunicării
 Construcția Interfețelor Web, An I, 2026-2027
 

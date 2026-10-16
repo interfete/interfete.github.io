@@ -1,3 +1,9 @@
+---
+layout: default
+title: Laborator 02
+nav_order: 3
+---
+
 # CIW Științele Comunicării
 
 ## Laborator 02: XML și HTML

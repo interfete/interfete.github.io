@@ -1,3 +1,9 @@
+---
+layout: default
+title: Laborator 01
+nav_order: 2
+---
+
 # CIW Științele Comunicării
 
 ## Laborator 01
