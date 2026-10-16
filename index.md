@@ -25,14 +25,18 @@ Miercuri 12-14, sala **B219b**
 
 ### Laborator
 
-| Ora   | Marți                | Miercuri             | Joi                  | Vineri               |
-| ------|---------------------------------------------|----------------------|----------------------|
-|  8-10 | 411Ha - BN316 (Alex) | 414Hb - PR606 (Alex) |                      |                      |
-| 10-12 | 414Ha - BN316 (Gabi) |                      |                      |                      |
-| 12-14 | 412Ha - BN316 (Gabi) |                      | 412Hb - BN316 (Gabi) |                      |
-| 14-16 |                      | 413Hb - BN316 (Gabi) |                      |                      |
-| 16-18 |                      |                      |                      |                      |
-| 18-20 | 413Ha - BN316 (Alex) |                      |                      | 411Hb - PR606 (Alex) |
+<div style="width: 100%; overflow-x: auto;" markdown="1">
+
+| Ora | Marți | Miercuri | Joi | Vineri |
+| :---: | :-: | :-: | :-: | :-: |
+| 08-10 | <b>411Ha</b> <br> BN316 <br> <i><font color="blue">(Alex)</font></i> | <b>414Hb</b> <br> PR606 <br> <i><font color="blue">(Alex)</font></i> | | |
+| 10-12 | <b>414Ha</b> <br> BN316 <br> <i><font color="green">(Gabi)</font></i>  | | | |
+| 12-14 | <b>412Ha</b> <br> BN316 <br> <i><font color="green">(Gabi)</font></i>  | | <b>412Hb</b> <br> BN316 <br> <i><font color="green">(Gabi)</font></i>  | |
+| 14-16 | | <b>413Hb</b> <br> BN316 <br> <i><font color="green">(Gabi)</font></i>  | | |
+| 16-18 | | | | |
+| 18-20 | <b>413Ha</b> <br> BN316 <br> <i><font color="blue">(Alex)</font></i> | | | <b>411Hb</b> <br> PR606 <br> <i><font color="blue">(Alex)</font></i> |
+
+</div>
 
 ### Laboratoare
 
