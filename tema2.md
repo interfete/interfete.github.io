@@ -1,3 +1,10 @@
+---
+layout: default
+title: Tema 2
+nav_order: 15
+nav_exclude: true
+---
+
 # CIW Științele Comunicării
 
 ## Tema 2: Landing page personal

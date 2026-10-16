@@ -1,3 +1,10 @@
+---
+layout: default
+title: Tema 1
+nav_order: 14
+nav_exclude: true
+---
+
 # CIW Științele Comunicării
 
 ## Tema 1: Pagină de rezervare pentru ziua voastră
