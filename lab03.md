@@ -1,3 +1,10 @@
+---
+layout: default
+title: Laborator 03
+nav_order: 4
+nav_exclude: true
+---
+
 # CIW Științele Comunicării
 
 ## Laborator 03: Tag-uri semantice HTML 5
