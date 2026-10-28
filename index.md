@@ -44,8 +44,8 @@ Miercuri 12-14, sala **B219b**
   <li><a href="{{ '/lab01/' | relative_url }}">Laborator 01 (săptămâna 05.10-09.10)</a></li>
   <li><a href="{{ '/lab02/' | relative_url }}">Laborator 02 (săptămâna 12.10-16.10)</a></li>
   <li><a href="{{ '/lab03/' | relative_url }}">Laborator 03 (săptămâna 19.10-23.10)</a></li>
-  <!-- <li><a href="{{ '/lab04' | relative_url }}">Laborator 04 (săptămâna 27.10-31.10)</a></li>
-  <li><a href="{{ '/lab05' | relative_url }}">Laborator 05 (săptămâna 03.11-07.11)</a></li>
+  <li><a href="{{ '/lab04' | relative_url }}">Laborator 04 (săptămâna 26.10-30.10)</a></li>
+  <!-- <li><a href="{{ '/lab05' | relative_url }}">Laborator 05 (săptămâna 03.11-07.11)</a></li>
   <li><a href="{{ '/lab06' | relative_url }}">Laborator 06 (săptămâna 10.11-14.11)</a></li>
   <li><a href="{{ '/lab07' | relative_url }}">Laborator 07 (săptămâna 17.11-21.11)</a></li>
   <li><a href="{{ '/lab08' | relative_url }}">Laborator 08 (săptămâna 24.11-28.11)</a></li>
