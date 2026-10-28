@@ -12,96 +12,98 @@ search_exclude: false
 
 ### Formulare
 
-Formularele HTML permit interacțiunea dintre utilizator și site-ul web. Ele colectează date (de exemplu nume, prenume, e-mail, mesaje text) și le trimit către un server pentru procesare.
+Formularele HTML permit interacțiunea dintre utilizator și site-ul web. Ele colectează date (de exemplu nume, prenume, e-mail, mesaje text) și le trimit către un server web pentru procesare.
 
 Scopul acestui laborator este de a înțelege structura unui formular, tipurile de câmpuri disponibile și modul de trimitere a datelor.
 
 ### Elemente de bază
 
-Un formular HTML se definește cu tag-ul `form`: 
+Un formular HTML se definește cu tag-ul `<form>`: 
 
 ```
 <form action="procesare.php" method="post">
-  <!-- câmpuri de completat -->
+  <!-- campuri de completat date -->
 </form>
 ```
 
 Atribute importante:
 - `action` - adresa unde sunt trimise datele (spre un fișier sau server).
 - `method` – modul de trimitere a datelor
-    - GET - vizibil în URL (pentru căutări, filtrări, etc.);
-	- POST - ascuns în corpul cererii (pentru date sensibile).
+    - **GET** - vizibil în URL (pentru căutări, filtrări, etc.);
+	- **POST** - ascuns în corpul cererii (pentru date sensibile).
 
-Exemplu:
+Exemplu de formular:
 ```
-<form action="/submit" method="post">
+<form action="procesare.php" method="post">
     <label for="name">Nume:</label>
     <input type="text" id="name" name="name">
     <button type="submit">Trimite</button>
 </form>
 ```
 
-### Câmpuri ce pot fi folosite
+### Câmpuri de tip `input`
+
+Folosesc tag-ul `<input>` și permit 
 
 #### Text simplu
 
-Scop: Introducere text scurt
+Scop: Introducere text scurt (de ex.: nume, prenume, oraș).
 
 ```
 <input type="text">
 ```
 
-#### Parolă
+#### Câmp de parolă
 
-Scop: Ascunde caracterele introduse
+Scop: Ascunde caracterele introduse.
 
 ```
 <input type="password">
 ```
 
-#### E-mail
+#### Câmp de e-mail
 
-Scop: Verifică formatul e-mail-ului
+Scop: Verifică formatul e-mail-ului atunci când se trimite formularul.
 
 ```
 <input type="email">
 ```
 
-#### Număr
+#### Câmp numeric
 
-Scop: Doar valori numerice
+Scop: Acceptă doar valori numerice. Permite setarea valorile minimă și maximă, precum și setarea pasului.
 
 ```
 <input type="number" min="0" max="100">
 ```
 
-#### Dată
+#### Câmp tip dată
 
-Scop: Selector de dată
+Scop: Selector de dată - afișează un calendar și permite selecția datei.
 
 ```
 <input type="date">
 ```
 
-#### Checkbox
+#### Câmp de selecție tip checkbox
 
-Scop: Alegere multiplă (da/nu)
+Scop: Alegere multiplă a unor opțiuni disponibile (ex.: tipuri de sosri la comanda de kebab).
 
 ```
 <input type="checkbox">
 ```
 
-#### Radio
+#### Câmp de selecție tip radio buttons
 
-Scop: Alegere unică între opțiuni. Atenție! Valoarea atributului name trebuie să fie aceeași!
+Scop: Alegere unică între mai multe opțiuni. Atenție! Valoarea atributului `name` trebuie să fie aceeași ca să poată exista alegerea exclusivă!
 
 ```
 <input type="radio" name="opt">
 ```
 
-#### Text extins
+#### Câmp de text extins
 
-Scop: Text lung (comentarii)
+Scop: Completarea unui text lung (ex.: comentarii). Atenție! Acest câmp NU este *self-closing*.
 
 ```
 <textarea></textarea>
@@ -109,7 +111,7 @@ Scop: Text lung (comentarii)
 
 #### Buton
 
-Scop: Trimite formularul
+Scop: Trimiterea datelor din formular.
 
 ```
 <button type="submit">
@@ -117,7 +119,7 @@ Scop: Trimite formularul
 
 #### Reset
 
-Scop: Golește câmpurile
+Scop: Resetează câmpurile la valoarea lor inițială (care în general este goală).
 
 ```
 <button type="reset">
@@ -170,7 +172,7 @@ Veți crea un formular simplu de contact cu 3 câmpuri (nume, e-mail, mesaj) și
 
 2) **Atributul `name`**
 
-Pentru fiecare dintre cele 4 câmpuri create anterior, adaugă atributul `name` și setează câte un nume unic fiecărui câmp. De exemplu, câmpul ce va conține e-mail-ul ar putea să aibă valoarea "email" pentru atributul `name`.
+Pentru fiecare dintre cele 3 câmpuri create anterior, adaugă atributul `name` și setează câte un nume unic fiecărui câmp. De exemplu, câmpul ce va conține e-mail-ul ar putea să aibă valoarea "email" pentru atributul `name`.
 
 <mark>
     <b>Atenție!</b> Browser-ul va trimite dintr-un formular doar acele câmpuri care au atributul <code>name</code> setat. Explicația constă în faptul că se va trimite o asociere de tip pereche <i>cheie-valoare</i>, unde cheile vor fi extrase din atributul <code>name</code>, iar valorile sunt ceea ce scrie efectiv utilizatorul. 
