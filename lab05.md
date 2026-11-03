@@ -2,8 +2,8 @@
 layout: default
 title: Laborator 05
 nav_order: 6
-nav_exclude: true
-search_exclude: true
+nav_exclude: false
+search_exclude: false
 ---
 
 # CIW Științele Comunicării
@@ -12,16 +12,18 @@ search_exclude: true
 
 ### Tabele
 
-Tabelele în HTML sunt folosite pentru a organiza informațiile în rânduri și coloane, similar cu un tabel dintr-un fișier Excel. Ele sunt utile pentru afișarea datelor structurate — cum ar fi orare, liste de prețuri sau rezultate de sondaje.
+Tabelele în HTML sunt folosite pentru a organiza informațiile în rânduri și coloane, similar cu un tabel dintr-un fișier *Microsoft Excel*. Tabelele sunt utile pentru afișarea datelor structurate — cum ar fi orare, liste de prețuri, meniuri, rezultate de chestionare, etc.
 
 ### Tag-uri folosite
 
-Un tabel este definit cu tag-ul `<table>`, iar structura sa de bază include:
-- `<tr>` – definește un rând (table row),
-- `<th>` – definește o celulă de antet (table header),
-- `<td>` – definește o celulă de date (table data).
+Un tabel este definit cu ajutorul tag-ului `<table>`, iar structura sa de bază include:
+- `<tr>` – definește un rând întreg (**table row**);
+- `<th>` – definește o celulă de antet/cap de tabel (**table header**);
+- `<td>` – definește o celulă de date (**table data**).
 
 #### Exemplul 1 - Tabel simplu
+
+Exemplul următor definește un tabel cu două coloane (*Nume* și *Vârstă*), un rând ce conține capul de tabel și două rânduri de conținut:
 ```
 <table border="1">
   <tr>
@@ -41,15 +43,15 @@ Un tabel este definit cu tag-ul `<table>`, iar structura sa de bază include:
 
 ### Tag-urile `<thead>`, `<tbody>` și `<tfoot>`
 
-Aceste trei elemente ajută la organizarea logică a conținutului unui tabel HTML, separând clar părțile componente:
-- `<thead>` – conține rândurile de antet ale tabelului (de obicei cu tag-uri `<th>`).
-Este util pentru a specifica titlurile coloanelor și pentru ca browserele sau cititoarele de ecran să le recunoască drept capete de tabel.
-- `<tbody>` – include conținutul principal al tabelului, adică toate rândurile de date efective (`<tr>` cu `<td>`).
-Poți avea un singur `<tbody>` într-un tabel, dar unele browsere permit mai multe pentru tabele complexe.
-- `<tfoot>` – conține rândul de subsol, folosit adesea pentru totaluri, note sau concluzii ale datelor.
-Interesant este că, deși apare vizual la final, poate fi plasat în cod înainte de `<tbody>`, pentru ca browserul să poată procesa mai eficient tabelele mari.
+Tag-urile `<thead>`, `<tbody>` și `<tfoot>` sunt tag-uri semantice care ajută motorul de căutare să înțeleagă cum este structurat conținutul. De asemenea, aceste trei elemente ajută la organizarea logică a conținutului unui tabel HTML, separând clar părțile componente:
+- **`<thead>`** – cuprinde rândurile de antet ale tabelului (ale căror celule sunt de obicei definite cu tag-uri `<th>`).
+Este util pentru a specifica numele coloanelor și pentru ca browserele sau cititoarele de ecran să le recunoască drept capete de tabel. Atenție! Tabelele pot avea mai multe rânduri de antet, dar toate vor fi cuprinse într-un singur tag `<thead>`!
+- **`<tbody>`** – include conținutul principal al tabelului, adică toate rândurile de date efective (de obicei rânduri de tip `<tr>` ce cuprind date definite cu tag-uri de tip `<td>`).
+Poți avea un singur `<tbody>` într-un tabel!.
+- **`<tfoot>`** – conține rândul de subsol, folosit adesea pentru totaluri, subtotaluri, note de subsol ale tabelului sau concluzii ale datelor.
 
 #### Exemplul 2 - Tabel cu structură semantică
+Exemplul următor definește un tabel cu două coloane (*Produs* și *Preț*), un rând de cap de tabel și trei rânduri de celule cu conținut. Capul de tabel este cuprins in tag-ul `<thead>`, iar rândurile de conținut în tag-ul `<tbody>`:
 ```
 <table border="1">
   <thead>
@@ -90,6 +92,7 @@ Pentru aceste situații se folosesc atributele `colspan` și `rowspan`, aplicate
 Atributul `colspan` specifică numărul de coloane pe care o celulă trebuie să le ocupe.
 
 ##### Exemplul 3 - Tabel cu `colspan`
+Tabelul următor definește două coloane: *Nume* și *Note*, dar coloana *Note* se întinde pe două coloane. Din această cauză, rândul de conținut are, de fapt, 3 celule:
 ```
 <table border="1">
   <tr>
@@ -104,13 +107,12 @@ Atributul `colspan` specifică numărul de coloane pe care o celulă trebuie să
 </table>
 ```
 
-Celula "Note" se întinde pe două coloane în exemplul de mai sus.
-
 #### `rowspan` – unirea rândurilor
 
 Atributul `rowspan` specifică numărul de rânduri pe care o celulă trebuie să le acopere.
 
 ##### Exemplul 4 - Tabel cu `rowspan`
+Tabelul următor definește un tabel cu două coloane, *Categorie* și *Produs*, iar coloana *Categorie* se întinde pe două rânduri:
 ```
 <table border="1">
   <tr>
@@ -123,13 +125,11 @@ Atributul `rowspan` specifică numărul de rânduri pe care o celulă trebuie s�
 </table>
 ```
 
-Celula "Categorie" se întinde pe două rânduri în exemplul de mai sus.
-
 #### Observații
 
 Folosirea acestor atribute ajută la crearea unor tabele mai complexe și mai clare vizual.
 
-Totuși, trebuie folosite cu grijă, pentru ca structura tabelului să rămână logică și ușor de citit (atât pentru oameni, cât și pentru tehnologii asistive).
+Totuși, trebuie folosite cu grijă, pentru ca structura tabelului să rămână logică și ușor de citit (atât pentru oameni, cât și pentru programele care suportă tehnologii asistive).
 
 ### Exerciții
 
@@ -137,8 +137,8 @@ Totuși, trebuie folosite cu grijă, pentru ca structura tabelului să rămână
 
 2) Salvați într-un fișier HTML codul din *Exemplul 3 - Tabel cu `colspan`*, de mai sus. Adăugați încă o notă, astfel încât Maria să aibă 3 note. Ce atribut trebuie să mai modificați?
 
-3) Fișierul PDF <a href="lab05/intretinere.pdf" target="_blank">intretinere.pdf</a> conține o listă simplificată de întreținere. Realizați un document HTML care să creeze un tabel cât mai asemănător cu acesta. Valorile numerice nu sunt relevante (le puteți completa aleator).
+3) Fișierul PDF <a href="intretinere.pdf" target="_blank">intretinere.pdf</a> conține o listă simplificată de întreținere. Realizați un document HTML care să creeze un tabel cât mai asemănător cu acesta. Valorile numerice nu sunt relevante (le puteți completa aleator).
 Condiții minime:
 - minim 4 coloane
-- minim 2 secțiuni (ex.: SCARA A, SCARA B)
-- folosiți tag-uri semantice pentru structurare antet, corp și subsol tabel
+- minim 2 secțiuni (ex.: SCARA A, SCARA B) - folosiți atributul `colspan`
+- folosiți tag-uri semantice pentru structurarea antetului, corpului și subsolului tabelului
