@@ -95,14 +95,14 @@ La adresa următoare găsiți un quiz demo care prezintă exemple de întrebări
 
 ### Exerciții
 
-1) Structura unei pagini semantice de știri
+**1) Structura unei pagini semantice de știri**
 
 Dezvoltați o pagină HTML cu știri, care să conțină:
 - O zonă de antet (`<header>`) care să conțină titlul site-ului (`<h1>`) și un meniu de navigare (`<nav>`).
 - Un articol principal (`<article>`) care conține un titlu, un paragraf introductiv și o imagine cu text alternativ.
 - Un subsol (`<footer>`) cu un text de copyright. Includeți simbolul de copyright (`&copy;`).
 
-2) Formular de înregistrare
+**2) Formular de înregistrare**
 
 Dezvoltați o pagină HTML care să cuprindă un formular de înregistrare. Acesta trebuie să conțină:
 - un câmp (`<input>`) pentru Nume (input de tip `text`, obligatoriu - `required`);
@@ -113,9 +113,9 @@ Dezvoltați o pagină HTML care să cuprindă un formular de înregistrare. Aces
 
 <mark>Atenție! Toate câmpurile trebuie să aibă un  `<label>` și legătura corectă între label și id-ul inputului!)</mark>
 
-3) Orarul facultății
+**3) Orarul facultății**
 
-Fișierul <a href="recap/orar.pdf" target="_blank">orar.pdf</a> conține orarul vostru.
+Fișierul <a href="orar.pdf" target="_blank">orar.pdf</a> conține orarul vostru.
 
 Creeați un tabel care să afișeze orarul pentru două zile, folosind tag-uri: `<thead>`, `<tbody>`, `<tr>`, `<th>` și `<td>`.
 
