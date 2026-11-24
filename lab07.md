@@ -1,7 +1,7 @@
 ---
 layout: default
 title: Laborator 07
-nav_order: 8
+nav_order: 9
 nav_exclude: false
 search_exclude: false
 ---
