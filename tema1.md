@@ -93,7 +93,7 @@ Tema se va arhiva într-o arhivă **ZIP** cu nume de forma `IDTeams_Grupa.zip`, 
 * `webhook.txt` — ce va conține **doar** link-ul vostru unic `https://webhook.site/...` pe prima linie (fără alt text);
 * `screenshot.png` (sau `.jpg`) — o captură de ecran cu pagina întreagă deschisă în orice browser web.
 
-Arhiva se va trimite prin Moodle la următoarea adresă: <a href="https://bit.ly/ciw-tema1" target="_blank">https://bit.ly/ciw-tema1</a>.
+Arhiva se va trimite prin Moodle la următoarea adresă: <a href="https://curs.upb.ro/2026/mod/assign/view.php?id=83175" target="_blank">https://curs.upb.ro/2026/mod/assign/view.php?id=83175</a>.
 
 ---
 
